@@ -1,0 +1,7 @@
+# ต้องใช้ Python 3.9 - 3.12 (MediaPipe ยังไม่รองรับ 3.13+)
+mediapipe==0.10.21
+# (opencv-contrib-python ติดตั้งมาพร้อม mediapipe)
+numpy<2
+pillow
+torch
+pygrabber      # อ่านชื่ออุปกรณ์กล้องบน Windows
